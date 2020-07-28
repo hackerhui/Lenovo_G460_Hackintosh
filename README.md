@@ -23,11 +23,12 @@ OS X Mavericks 10.10.x
 
 ## 已知问题（待解决）
 
+开机长时间卡busy timeout IOhdacodec function影响进入系统速度  
 电池驱动问题  
 
 ## 详细说明
 
-引导：Clover r5078 传统BIOS引导  
+引导：Clover r5076 传统BIOS引导  
 显卡：免驱  
 声卡：AppleALC.kext注入13驱动  
 无线网卡：FakePCIID.kext与FakePCIID_AR9280_as_AR9285.kext仿冒驱动  
