@@ -23,6 +23,7 @@ OS X Mavericks 10.10.x
 
 ## 已知问题（待解决）
 
+Clover无法提出DSDT
 开机长时间卡busy timeout IOhdacodec function影响进入系统速度  
 电池驱动问题  
 
