@@ -1,5 +1,7 @@
 # Lenovo_G460_Hackintosh
 
+本项目为研究计算机原理使用
+
 ## 配置信息
 
 型号：Lenovo G460  
@@ -15,6 +17,8 @@
 
 ## 适用系统
 
+MacOS Catalina 10.15.x
+macOS Mojave 10.14.x
 macOS High Sierra 10.13.x  
 macOS Sierra 10.12.x  
 OS X El Capitan 10.11.x  
@@ -23,13 +27,12 @@ OS X Mavericks 10.10.x
 
 ## 已知问题（待解决）
 
-Clover无法提出DSDT
-开机长时间卡busy timeout IOhdacodec function影响进入系统速度  
 电池驱动问题  
 
 ## 详细说明
 
-引导：Clover r5076 传统BIOS引导  
+引导：Clover r5093 传统BIOS引导  
 显卡：免驱  
 声卡：AppleALC.kext注入13驱动  
 无线网卡：FakePCIID.kext与FakePCIID_AR9280_as_AR9285.kext仿冒驱动  
+macOS 10.14以上版本需要修改机型，第二种办法是使用macOS patcher
