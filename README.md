@@ -17,8 +17,8 @@
 
 ## 适用系统
 
-MacOS Catalina 10.15.x
-macOS Mojave 10.14.x
+MacOS Catalina 10.15.x  
+macOS Mojave 10.14.x  
 macOS High Sierra 10.13.x  
 macOS Sierra 10.12.x  
 OS X El Capitan 10.11.x  
