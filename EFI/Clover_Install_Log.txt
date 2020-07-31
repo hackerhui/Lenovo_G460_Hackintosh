@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Sun Jul 26 01:38:59 PDT 2020
-Installer version: v2.5k r5078 EFI bootloader
+Clover EFI installer log - Wed Jul 29 18:39:01 PDT 2020
+Installer version: v2.5k r5094 EFI bootloader
 ======================================================
 /dev/disk0
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -14,7 +14,7 @@ Installer version: v2.5k r5078 EFI bootloader
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Macintosh HD/EFIROOTDIR/EFI folder to /Volumes/Macintosh HD/EFI-Backups/r0000/2020-07-26-01h38/EFI
+Backing up /Volumes/Macintosh HD/EFIROOTDIR/EFI folder to /Volumes/Macintosh HD/EFI-Backups/r0000/2020-07-29-18h39/EFI
 No Active Partition
 
 Stage 0 - Writing boot0ss to /dev/rdisk0

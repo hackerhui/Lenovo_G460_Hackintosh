@@ -993,7 +993,7 @@
 			</dict>
 		</array>
 		<key>AppleIntelCPUPM</key>
-		<false/>
+		<true/>
 		<key>AppleRTC</key>
 		<false/>
 		<key>Debug</key>
@@ -1048,6 +1048,19 @@
 	</dict>
 	<key>RtVariables</key>
 	<dict>
+		<key>Block</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Dell variables</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Name</key>
+				<string>*</string>
+				<key>UUID</key>
+				<string>FF2E9FC7-D16F-434A-A24E-C99519B7EB93</string>
+			</dict>
+		</array>
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
