@@ -1,0 +1,81 @@
+12:020  0:569  Found BIOS RSDP at FE020
+12:020  0:000  Saving ACPI tables from RSDP FE020 to EFI\CLOVER\ACPI\origin ...
+12:020  0:000   FE020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+13:278  1:258    (Xsdt: BF7FE120, Rsdt: BF7FE0AC)
+13:278  0:000    BF7FE120: 'XSDT', 'CB-01', Rev: 1, Len: 132 -> XSDT.aml
+13:966  0:688    BF7FE0AC: 'RSDT', 'CB-01', Rev: 1, Len: 84 -> RSDT.aml
+14:277  0:310    Tables in Xsdt: 12
+14:277  0:000    0. BF7FC000: 'FACP', 'CB-01', Rev: 4, Len: 244 -> FACP.aml
+14:589  0:312        (Dsdt: BF7EE000, Facs: BF76A000, XDsdt: BF7EE000, XFacs: BF76A000)
+14:589  0:000        BF7EE000: 'DSDT', 'CB-01', Rev: 2, Len: 44601 -> DSDT.aml
+14:930  0:340        BF76A000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+15:253  0:323    1. BF7FD000: 'ASF!', 'Calpella', Rev: 32, Len: 165 -> ASF!.aml
+15:577  0:323    2. BF7FB000: 'HPET', 'CB-01', Rev: 1, Len: 56 -> HPET.aml
+15:901  0:324    3. BF7FA000: 'APIC', 'Calpella', Rev: 2, Len: 140 -> APIC.aml
+16:614  0:712    4. BF7F9000: 'MCFG', 'CB-01', Rev: 1, Len: 60 -> MCFG.aml
+16:939  0:324    5. BF7ED000: 'SLIC', 'CB-01', Rev: 1, Len: 374 -> SLIC.aml
+17:264  0:325    6. BF7EA000: 'BOOT', 'Calpella', Rev: 1, Len: 40 -> BOOT.aml
+17:589  0:325    7. BF7E6000: 'ASPT', 'Calpella', Rev: 4, Len: 52 -> ASPT.aml
+17:914  0:324    8. BF7E5000: 'WDRT', 'Calpella', Rev: 1, Len: 71 -> WDRT.aml
+18:243  0:328    9. BF7E4000: 'SSDT', 'CpuPm', Rev: 1, Len: 2545 -> SSDT-0-CpuPm.aml (Found hidden SSDT 4 pcs)
+18:637  0:394        * BF691918: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 994  53 53 44 54 E2 03 00 00 01 9B 50 6D 52 65 66 00 Internal length = 994 -> SSDT-x0_0-Cpu0Ist.aml
+18:960  0:322        * BF690A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 76 50 6D 52 65 66 00 Internal length = 771 -> SSDT-x0_1-ApIst.aml
+19:284  0:323        * BF68F618: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1485  53 53 44 54 CD 05 00 00 01 21 50 6D 52 65 66 00 Internal length = 1485 -> SSDT-x0_2-Cpu0Cst.aml
+19:986  0:702        * BF68ED98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x0_3-ApCst.aml
+20:306  0:319  
+20:306  0:000    10. BF7E3000: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 601 -> SSDT-1-Cpu0Tst.aml
+20:707  0:401    11. BF7E2000: 'SSDT', 'ApTst', Rev: 1, Len: 1183 -> SSDT-2-ApTst.aml
+21:026  0:318    Tables in Rsdt: 12
+21:026  0:000    0. BF7FC000: 'FACP', 'CB-01', Rev: 4, Len: 244
+21:026  0:000        (Dsdt: BF7EE000, Facs: BF76A000, XDsdt: BF7EE000, XFacs: BF76A000)
+21:026  0:000        BF7EE000: 'DSDT', 'CB-01', Rev: 2, Len: 44601
+21:027  0:000        BF76A000: 'FACS', Ver: 1, Len: 64
+21:027  0:000    1. BF7FD000: 'ASF!', 'Calpella', Rev: 32, Len: 165
+21:027  0:000    2. BF7FB000: 'HPET', 'CB-01', Rev: 1, Len: 56
+21:027  0:000    3. BF7FA000: 'APIC', 'Calpella', Rev: 2, Len: 140
+21:027  0:000    4. BF7F9000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+21:027  0:000    5. BF7ED000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+21:027  0:000    6. BF7EA000: 'BOOT', 'Calpella', Rev: 1, Len: 40
+21:027  0:000    7. BF7E6000: 'ASPT', 'Calpella', Rev: 4, Len: 52
+21:027  0:000    8. BF7E5000: 'WDRT', 'Calpella', Rev: 1, Len: 71
+21:027  0:000    9. BF7E4000: 'SSDT', 'CpuPm', Rev: 1, Len: 2545
+21:027  0:000    10. BF7E3000: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 601
+21:027  0:000    11. BF7E2000: 'SSDT', 'ApTst', Rev: 1, Len: 1183
+21:027  0:000  Found UEFI Acpi 2.0 RSDP at BF2CB000
+21:027  0:000  Printing ACPI tables from RSDP BF2CB000 ...
+21:027  0:000   BF2CB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+21:027  0:000    (Xsdt: BF7FE120, Rsdt: BF7FE0AC)
+21:027  0:000    BF7FE120: 'XSDT', 'CB-01', Rev: 1, Len: 132
+21:027  0:000    BF7FE0AC: 'RSDT', 'CB-01', Rev: 1, Len: 84
+21:027  0:000    Tables in Xsdt: 12
+21:027  0:000    0. BF7FC000: 'FACP', 'CB-01', Rev: 4, Len: 244
+21:027  0:000        (Dsdt: BF7EE000, Facs: BF76A000, XDsdt: BF7EE000, XFacs: BF76A000)
+21:027  0:000        BF7EE000: 'DSDT', 'CB-01', Rev: 2, Len: 44601
+21:028  0:000        BF76A000: 'FACS', Ver: 1, Len: 64
+21:028  0:000    1. BF7FD000: 'ASF!', 'Calpella', Rev: 32, Len: 165
+21:028  0:000    2. BF7FB000: 'HPET', 'CB-01', Rev: 1, Len: 56
+21:028  0:000    3. BF7FA000: 'APIC', 'Calpella', Rev: 2, Len: 140
+21:028  0:000    4. BF7F9000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+21:028  0:000    5. BF7ED000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+21:028  0:000    6. BF7EA000: 'BOOT', 'Calpella', Rev: 1, Len: 40
+21:028  0:000    7. BF7E6000: 'ASPT', 'Calpella', Rev: 4, Len: 52
+21:028  0:000    8. BF7E5000: 'WDRT', 'Calpella', Rev: 1, Len: 71
+21:028  0:000    9. BF7E4000: 'SSDT', 'CpuPm', Rev: 1, Len: 2545
+21:028  0:000    10. BF7E3000: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 601
+21:028  0:000    11. BF7E2000: 'SSDT', 'ApTst', Rev: 1, Len: 1183
+21:028  0:000    Tables in Rsdt: 12
+21:028  0:000    0. BF7FC000: 'FACP', 'CB-01', Rev: 4, Len: 244
+21:028  0:000        (Dsdt: BF7EE000, Facs: BF76A000, XDsdt: BF7EE000, XFacs: BF76A000)
+21:028  0:000        BF7EE000: 'DSDT', 'CB-01', Rev: 2, Len: 44601
+21:029  0:000        BF76A000: 'FACS', Ver: 1, Len: 64
+21:029  0:000    1. BF7FD000: 'ASF!', 'Calpella', Rev: 32, Len: 165
+21:029  0:000    2. BF7FB000: 'HPET', 'CB-01', Rev: 1, Len: 56
+21:029  0:000    3. BF7FA000: 'APIC', 'Calpella', Rev: 2, Len: 140
+21:029  0:000    4. BF7F9000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+21:029  0:000    5. BF7ED000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+21:029  0:000    6. BF7EA000: 'BOOT', 'Calpella', Rev: 1, Len: 40
+21:029  0:000    7. BF7E6000: 'ASPT', 'Calpella', Rev: 4, Len: 52
+21:029  0:000    8. BF7E5000: 'WDRT', 'Calpella', Rev: 1, Len: 71
+21:029  0:000    9. BF7E4000: 'SSDT', 'CpuPm', Rev: 1, Len: 2545
+21:029  0:000    10. BF7E3000: 'SSDT', 'Cpu0Tst', Rev: 1, Len: 601
+21:029  0:000    11. BF7E2000: 'SSDT', 'ApTst', Rev: 1, Len: 1183

@@ -23,12 +23,7 @@ macOS High Sierra 10.13.x
 macOS Sierra 10.12.x  
 OS X El Capitan 10.11.x  
 OS X Yosemite 10.10.x  
-OS X Mavericks 10.10.x  
-
-## 已知问题（待解决）
-
-电池驱动问题  
-
+OS X Mavericks 10.9.x  
 ## 详细说明
 
 引导：Clover r5094 传统BIOS引导  
@@ -36,3 +31,4 @@ OS X Mavericks 10.10.x
 声卡：AppleALC.kext注入13驱动  
 无线网卡：FakePCIID.kext与FakePCIID_AR9280_as_AR9285.kext仿冒驱动  
 macOS 10.14以上版本需要修改机型，第二种办法是使用macOS patcher
+电池：拆分了DSDT中关于电池的几个参数，配合 SMCBatteryManager.kext 驱动电池就能显示，感谢@xiaoMGitHub #1
